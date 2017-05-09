@@ -3,8 +3,40 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Calculadora-imc</title>
-</head>
-<body>
 	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body bgcolor="#0A2229">
+	<center>
+		<h1>
+			<font color="#E0ECF8">Calcule su IMC</font>
+		</h1>
+	</center>	
+	<center>
+		<form name="formulario">
+			<input type="texto" id="dpeso">
+			<br>
+			<input type="button" id="peso" value="Envia Peso" onclick="enviap();" >
+			<br>
+			<input type="texto" id="daltura">
+			<br>
+			<input type="button" id="altura" value="Envia Altura" onclick="enviaa();">
+			<br>
+			<br>
+			<br>
+			<input type="button" id="esexo" value="Calcule su IMC" onclick="sexo();">
+			<br>
+			<input type="texto" id="imc1">
+			<br>
+			<br>
+			<br>
+			<input type="button" id="respuesta" value="Obtener cálculo" onclick="resp();">
+			<br>
+			<br>
+			<input type="button" id="lim" value="Limpiar Datos" onclick="limpia();">
+			<br>
+			<br>
+			<input type="button" id="re" value="Rehacer" onclick="refaz();">
+		</form>
+	</center>
 </body>
 </html>
